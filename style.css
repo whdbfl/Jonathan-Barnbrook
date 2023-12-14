@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a:link{color: #FFFFFF;}
+a:hover{color: #FF0000;}
+a:active{color: #ff0000;}
+
+nav{
+    width: 1920px;
+    height: 100px;
+    background-color: #464646;
+    margin:0 auto;
+    
+}
+
+nav ul{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+nav ul li{
+    position: relative;
+    float: left;
+    top: 33px;
+    left: 525px;
+}
+nav ul li a{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 30px;
+}
+
+section{
+    width: 1920px;
+    height: 877px;
+    background-image: url(img/p01.png);
+    margin: 0 auto;
+}
+section ul{
+    width: 1100px;
+    height: 877px;
+    margin: 0 auto;
+}
+section ul li{
+    position: relative;
+    top: 565px;
+    left: 35px;
+}
+section ul li:first-child{
+    font-size: 30px;
+    font-weight: 500;
+    color: #FF0000;
+}
+section ul li:nth-child(3){
+    font-size: 70px;
+    letter-spacing: -3px;
+    font-weight: 700;
+    color: #DCDCDC;
+}
+section ul li:last-child{
+    font-size: 42px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    color: #727272;
+}
+
+footer{
+    width: 1920px;
+    height: 103px; 
+    background-color: #464646;
+    margin:0 auto;
+}
+footer ul{
+    width: 1100px;
+    height: 103px;
+    margin: 0 auto;
+}
+footer ul li{
+    position: relative;
+    float: left;
+    top: 33px;
+    left: 35px;
+}
+footer ul li:last-child{
+    left: 466px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
